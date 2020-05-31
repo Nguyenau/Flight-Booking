@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '98=l^ru872*&6a6fqm985!b=scw1^$!(11f25i6%bt_1rpeu0-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nguyenau-flightbooking.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
